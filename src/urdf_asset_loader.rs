@@ -59,8 +59,6 @@ impl AssetLoader for RpyAssetLoader {
         }
 
         let options = UrdfLoaderOptions {
-            create_colliders_from_visual_shapes: true,
-            create_colliders_from_collision_shapes: false,
             enable_joint_collisions: false,
             apply_imported_mass_props: true,
             make_roots_fixed: false,
